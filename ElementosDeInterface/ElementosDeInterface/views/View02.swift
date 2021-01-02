@@ -10,14 +10,42 @@ import SwiftUI
 struct View02: View {
     var body: some View {
         NavigationView{
-            List {
+            Form {
                 
-                Text("Colors")
-                Text("fontes")
-                Text("Imagens")
-                Text("Shapes")
-                Text("Texto")
-
+                NavigationLink(destination: Colors()){
+                    HStack{
+                        Image(systemName:"eyedropper.halffull")
+                        Text("Cores")
+                    }
+                }
+                
+                NavigationLink(destination: Fontes()){
+                    HStack{
+                        Image(systemName: "bold")
+                        Text("fontes")
+                    }
+                }
+                
+                NavigationLink(destination: Imagens()){
+                    HStack{
+                        Image(systemName: "rectangle")
+                        Text("Imagens")
+                    }
+                }
+                
+                NavigationLink(destination: Shapes()){
+                    HStack{
+                        Image(systemName: "seal.fill")
+                        Text("Shapes")
+                    }
+                }
+                
+                NavigationLink(destination: Texto()){
+                    HStack{
+                        Image(systemName: "text.alignleft")
+                        Text("Texto")
+                    }
+                }
             }
             .navigationTitle("Visualização")
         }

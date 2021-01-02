@@ -12,13 +12,35 @@ struct View01: View {
     var body: some View {
         
         NavigationView{
-            List {
-                Text("Botões")
-                Text("controladores")
-                Text("toques hapticos")
-                Text("Campos de escrita")
-                Text("Botões")
-
+            Form {
+                NavigationLink(destination: Botao()){
+                    HStack{
+                        Image(systemName: "switch.2")
+                        Text("Botões")
+                    }
+                }
+                
+                NavigationLink(destination: Controladores()){
+                    HStack{
+                        Image(systemName: "slider.vertical.3")
+                        Text("Controladores")
+                    }
+                }
+                NavigationLink(destination: ToqueHapticos()){
+                    HStack{
+                        Image(systemName: "iphone.homebutton.radiowaves.left.and.right")
+                        Text("Toques hapticos")
+                    }
+                }
+                NavigationLink(destination: CamposDeEscrita()){
+                    HStack{
+                        Image(systemName: "rectangle")
+                        Text("Campos de escrita")
+                    }
+                }
+                
+                
+                
             }
             .navigationTitle("Interação")
         }

@@ -7,18 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C1B3440A25A10BB500839908 /* Botao.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B3440925A10BB500839908 /* Botao.swift */; };
+		C1B3440E25A10BC100839908 /* Controladores.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B3440D25A10BC100839908 /* Controladores.swift */; };
+		C1B3441125A10BD200839908 /* ToqueHapticos.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B3441025A10BD200839908 /* ToqueHapticos.swift */; };
+		C1B3441425A10BE300839908 /* CamposDeEscrita.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B3441325A10BE300839908 /* CamposDeEscrita.swift */; };
+		C1B3441725A10C1500839908 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B3441625A10C1500839908 /* Colors.swift */; };
+		C1B3441A25A10C1D00839908 /* Fontes.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B3441925A10C1D00839908 /* Fontes.swift */; };
+		C1B3441D25A10C2700839908 /* Imagens.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B3441C25A10C2600839908 /* Imagens.swift */; };
+		C1B3442025A10C2F00839908 /* Shapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B3441F25A10C2F00839908 /* Shapes.swift */; };
+		C1B3442325A10C3700839908 /* Texto.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B3442225A10C3700839908 /* Texto.swift */; };
 		C1BB4BE425857199008DA87A /* ElementosDeInterfaceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BB4BE325857199008DA87A /* ElementosDeInterfaceApp.swift */; };
 		C1BB4BE625857199008DA87A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BB4BE525857199008DA87A /* ContentView.swift */; };
 		C1BB4BE82585719D008DA87A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1BB4BE72585719D008DA87A /* Assets.xcassets */; };
 		C1BB4BEB2585719E008DA87A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1BB4BEA2585719E008DA87A /* Preview Assets.xcassets */; };
 		C1BB4BF5258571F1008DA87A /* View01.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BB4BF4258571F1008DA87A /* View01.swift */; };
 		C1BB4BF8258571FC008DA87A /* View02.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BB4BF7258571FC008DA87A /* View02.swift */; };
-		C1BB4BFB25857208008DA87A /* View03.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BB4BFA25857208008DA87A /* View03.swift */; };
-		C1BB4BFE25857213008DA87A /* View05.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BB4BFD25857213008DA87A /* View05.swift */; };
-		C1BB4C0125857223008DA87A /* View04.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BB4C0025857223008DA87A /* View04.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C1B3440925A10BB500839908 /* Botao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Botao.swift; sourceTree = "<group>"; };
+		C1B3440D25A10BC100839908 /* Controladores.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Controladores.swift; sourceTree = "<group>"; };
+		C1B3441025A10BD200839908 /* ToqueHapticos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToqueHapticos.swift; sourceTree = "<group>"; };
+		C1B3441325A10BE300839908 /* CamposDeEscrita.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CamposDeEscrita.swift; sourceTree = "<group>"; };
+		C1B3441625A10C1500839908 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		C1B3441925A10C1D00839908 /* Fontes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fontes.swift; sourceTree = "<group>"; };
+		C1B3441C25A10C2600839908 /* Imagens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Imagens.swift; sourceTree = "<group>"; };
+		C1B3441F25A10C2F00839908 /* Shapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shapes.swift; sourceTree = "<group>"; };
+		C1B3442225A10C3700839908 /* Texto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Texto.swift; sourceTree = "<group>"; };
 		C1BB4BE025857199008DA87A /* ElementosDeInterface.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ElementosDeInterface.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1BB4BE325857199008DA87A /* ElementosDeInterfaceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElementosDeInterfaceApp.swift; sourceTree = "<group>"; };
 		C1BB4BE525857199008DA87A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -27,9 +42,6 @@
 		C1BB4BEC2585719E008DA87A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C1BB4BF4258571F1008DA87A /* View01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View01.swift; sourceTree = "<group>"; };
 		C1BB4BF7258571FC008DA87A /* View02.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View02.swift; sourceTree = "<group>"; };
-		C1BB4BFA25857208008DA87A /* View03.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View03.swift; sourceTree = "<group>"; };
-		C1BB4BFD25857213008DA87A /* View05.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View05.swift; sourceTree = "<group>"; };
-		C1BB4C0025857223008DA87A /* View04.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View04.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +55,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C1B3440525A1075300839908 /* Interacao */ = {
+			isa = PBXGroup;
+			children = (
+				C1B3440925A10BB500839908 /* Botao.swift */,
+				C1B3440D25A10BC100839908 /* Controladores.swift */,
+				C1B3441025A10BD200839908 /* ToqueHapticos.swift */,
+				C1B3441325A10BE300839908 /* CamposDeEscrita.swift */,
+			);
+			name = Interacao;
+			path = "Interação";
+			sourceTree = "<group>";
+		};
+		C1B3440625A1076A00839908 /* Visualizacao */ = {
+			isa = PBXGroup;
+			children = (
+				C1B3441625A10C1500839908 /* Colors.swift */,
+				C1B3441925A10C1D00839908 /* Fontes.swift */,
+				C1B3441C25A10C2600839908 /* Imagens.swift */,
+				C1B3441F25A10C2F00839908 /* Shapes.swift */,
+				C1B3442225A10C3700839908 /* Texto.swift */,
+			);
+			path = Visualizacao;
+			sourceTree = "<group>";
+		};
 		C1BB4BD725857199008DA87A = {
 			isa = PBXGroup;
 			children = (
@@ -85,9 +121,8 @@
 				C1BB4BE525857199008DA87A /* ContentView.swift */,
 				C1BB4BF4258571F1008DA87A /* View01.swift */,
 				C1BB4BF7258571FC008DA87A /* View02.swift */,
-				C1BB4BFA25857208008DA87A /* View03.swift */,
-				C1BB4C0025857223008DA87A /* View04.swift */,
-				C1BB4BFD25857213008DA87A /* View05.swift */,
+				C1B3440525A1075300839908 /* Interacao */,
+				C1B3440625A1076A00839908 /* Visualizacao */,
 			);
 			path = views;
 			sourceTree = "<group>";
@@ -161,13 +196,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1B3441A25A10C1D00839908 /* Fontes.swift in Sources */,
 				C1BB4BF8258571FC008DA87A /* View02.swift in Sources */,
-				C1BB4BFB25857208008DA87A /* View03.swift in Sources */,
+				C1B3441725A10C1500839908 /* Colors.swift in Sources */,
+				C1B3441125A10BD200839908 /* ToqueHapticos.swift in Sources */,
 				C1BB4BE625857199008DA87A /* ContentView.swift in Sources */,
+				C1B3442325A10C3700839908 /* Texto.swift in Sources */,
 				C1BB4BE425857199008DA87A /* ElementosDeInterfaceApp.swift in Sources */,
+				C1B3440A25A10BB500839908 /* Botao.swift in Sources */,
 				C1BB4BF5258571F1008DA87A /* View01.swift in Sources */,
-				C1BB4BFE25857213008DA87A /* View05.swift in Sources */,
-				C1BB4C0125857223008DA87A /* View04.swift in Sources */,
+				C1B3440E25A10BC100839908 /* Controladores.swift in Sources */,
+				C1B3441D25A10C2700839908 /* Imagens.swift in Sources */,
+				C1B3441425A10BE300839908 /* CamposDeEscrita.swift in Sources */,
+				C1B3442025A10C2F00839908 /* Shapes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
