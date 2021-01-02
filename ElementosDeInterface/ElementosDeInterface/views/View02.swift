@@ -11,7 +11,6 @@ struct View02: View {
     var body: some View {
         NavigationView{
             Form {
-                
                 NavigationLink(destination: Colors()){
                     HStack{
                         Image(systemName:"eyedropper.halffull")
