@@ -84,6 +84,17 @@ struct Colors: View {
                 }
             }
             
+            HStack{
+                RoundedRectangle(cornerRadius: 15)
+                    .frame(width: 60, height: 60)
+                    .foregroundColor(.purple)
+                VStack(alignment: .leading){
+                    Text("Roxo")
+                        .bold()
+                    Text(".foregroundColor(.purple)")
+                }
+            }
+            
         }
         
         .navigationTitle("Cores")
