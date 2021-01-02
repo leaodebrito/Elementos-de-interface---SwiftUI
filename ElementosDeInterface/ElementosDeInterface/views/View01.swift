@@ -38,9 +38,6 @@ struct View01: View {
                         Text("Campos de escrita")
                     }
                 }
-                
-                
-                
             }
             .navigationTitle("Interação")
         }
