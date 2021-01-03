@@ -105,6 +105,13 @@ struct Texto: View {
                 
                 Divider()
                     .frame(height: alturaSpacer)
+                Group{
+                Text("Mudança de fonte e tamanho")
+                    .font(.custom("Arial Black", size: 25))
+                    .padding(.bottom)
+                
+            
+                }
                 
             }
         }
