@@ -18,13 +18,6 @@ struct View02: View {
                     }
                 }
                 
-                NavigationLink(destination: Fontes()){
-                    HStack{
-                        Image(systemName: "bold")
-                        Text("fontes")
-                    }
-                }
-                
                 NavigationLink(destination: Imagens()){
                     HStack{
                         Image(systemName: "rectangle")
@@ -42,7 +35,7 @@ struct View02: View {
                 NavigationLink(destination: Texto()){
                     HStack{
                         Image(systemName: "text.alignleft")
-                        Text("Texto")
+                        Text("Texto e fontes")
                     }
                 }
             }
