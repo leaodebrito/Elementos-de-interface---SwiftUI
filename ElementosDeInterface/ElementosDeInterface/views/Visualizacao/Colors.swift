@@ -15,6 +15,7 @@ struct Colors: View {
             HStack{
                 RoundedRectangle(cornerRadius: 15)
                     .frame(width: 60, height: 60)
+                    .shadow(radius: 5)
                 Text("Cor padrão, ja com padrão de mudança de cor na mudança do modo escuro/claro")
             }
             
@@ -22,6 +23,7 @@ struct Colors: View {
                 RoundedRectangle(cornerRadius: 15)
                     .frame(width: 60, height: 60)
                     .foregroundColor(.blue)
+                    .shadow(radius: 5)
                 VStack(alignment: .leading){
                     Text("Azul")
                         .bold()
@@ -33,6 +35,7 @@ struct Colors: View {
                 RoundedRectangle(cornerRadius: 15)
                     .frame(width: 60, height: 60)
                     .foregroundColor(.green)
+                    .shadow(radius: 5)
                 VStack(alignment: .leading){
                     Text("Verde")
                         .bold()
@@ -44,6 +47,7 @@ struct Colors: View {
                 RoundedRectangle(cornerRadius: 15)
                     .frame(width: 60, height: 60)
                     .foregroundColor(.red)
+                    .shadow(radius: 5)
                 VStack(alignment: .leading){
                     Text("Vermelho")
                         .bold()
@@ -55,6 +59,7 @@ struct Colors: View {
                 RoundedRectangle(cornerRadius: 15)
                     .frame(width: 60, height: 60)
                     .foregroundColor(.orange)
+                    .shadow(radius: 5)
                 VStack(alignment: .leading){
                     Text("Laranja")
                         .bold()
@@ -66,6 +71,7 @@ struct Colors: View {
                 RoundedRectangle(cornerRadius: 15)
                     .frame(width: 60, height: 60)
                     .foregroundColor(.yellow)
+                    .shadow(radius: 5)
                 VStack(alignment: .leading){
                     Text("Amarelo")
                         .bold()
@@ -77,6 +83,7 @@ struct Colors: View {
                 RoundedRectangle(cornerRadius: 15)
                     .frame(width: 60, height: 60)
                     .foregroundColor(.gray)
+                    .shadow(radius: 5)
                 VStack(alignment: .leading){
                     Text("Cinza")
                         .bold()
@@ -88,6 +95,7 @@ struct Colors: View {
                 RoundedRectangle(cornerRadius: 15)
                     .frame(width: 60, height: 60)
                     .foregroundColor(.purple)
+                    .shadow(radius: 5)
                 VStack(alignment: .leading){
                     Text("Roxo")
                         .bold()

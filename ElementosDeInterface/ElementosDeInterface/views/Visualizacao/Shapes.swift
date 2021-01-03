@@ -14,6 +14,7 @@ struct Shapes: View {
                 RoundedRectangle(cornerRadius: 15)
                     .frame(width: 60, height: 60)
                     .foregroundColor(.gray)
+                    .shadow(radius: 5)
                 
                 VStack(alignment: .leading){
                     Text("Rounded Rectangle")
@@ -26,6 +27,7 @@ struct Shapes: View {
                 Rectangle()
                     .frame(width: 60, height: 60)
                     .foregroundColor(.gray)
+                    .shadow(radius: 5)
                 
                 VStack(alignment: .leading){
                     Text("Rectangle")
@@ -38,6 +40,7 @@ struct Shapes: View {
                 Circle()
                     .frame(width: 60, height: 60)
                     .foregroundColor(.gray)
+                    .shadow(radius: 5)
                 
                 VStack(alignment: .leading){
                     Text("Circle")
@@ -51,6 +54,7 @@ struct Shapes: View {
                     .frame(width: 10, height: 60)
                     .foregroundColor(.gray)
                     .padding(.horizontal, 25)
+                    .shadow(radius: 5)
                 
                 VStack(alignment: .leading){
                     Text("Capsule")
@@ -64,6 +68,7 @@ struct Shapes: View {
                     .frame(width: 30, height: 60)
                     .foregroundColor(.gray)
                     .padding(.horizontal, 15)
+                    .shadow(radius: 5)
                 
                 VStack(alignment: .leading){
                     Text("Ellipse")
