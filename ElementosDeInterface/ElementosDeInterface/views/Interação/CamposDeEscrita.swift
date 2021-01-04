@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct CamposDeEscrita: View {
+    
+   
+    
     var body: some View {
         Text("Campos de Escrita")
     }

@@ -12,7 +12,6 @@
 		C1B3441125A10BD200839908 /* ToqueHapticos.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B3441025A10BD200839908 /* ToqueHapticos.swift */; };
 		C1B3441425A10BE300839908 /* CamposDeEscrita.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B3441325A10BE300839908 /* CamposDeEscrita.swift */; };
 		C1B3441725A10C1500839908 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B3441625A10C1500839908 /* Colors.swift */; };
-		C1B3441A25A10C1D00839908 /* Fontes.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B3441925A10C1D00839908 /* Fontes.swift */; };
 		C1B3441D25A10C2700839908 /* Imagens.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B3441C25A10C2600839908 /* Imagens.swift */; };
 		C1B3442025A10C2F00839908 /* Shapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B3441F25A10C2F00839908 /* Shapes.swift */; };
 		C1B3442325A10C3700839908 /* Texto.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B3442225A10C3700839908 /* Texto.swift */; };
@@ -30,7 +29,6 @@
 		C1B3441025A10BD200839908 /* ToqueHapticos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToqueHapticos.swift; sourceTree = "<group>"; };
 		C1B3441325A10BE300839908 /* CamposDeEscrita.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CamposDeEscrita.swift; sourceTree = "<group>"; };
 		C1B3441625A10C1500839908 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
-		C1B3441925A10C1D00839908 /* Fontes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fontes.swift; sourceTree = "<group>"; };
 		C1B3441C25A10C2600839908 /* Imagens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Imagens.swift; sourceTree = "<group>"; };
 		C1B3441F25A10C2F00839908 /* Shapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shapes.swift; sourceTree = "<group>"; };
 		C1B3442225A10C3700839908 /* Texto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Texto.swift; sourceTree = "<group>"; };
@@ -71,7 +69,6 @@
 			isa = PBXGroup;
 			children = (
 				C1B3441625A10C1500839908 /* Colors.swift */,
-				C1B3441925A10C1D00839908 /* Fontes.swift */,
 				C1B3441C25A10C2600839908 /* Imagens.swift */,
 				C1B3441F25A10C2F00839908 /* Shapes.swift */,
 				C1B3442225A10C3700839908 /* Texto.swift */,
@@ -196,7 +193,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1B3441A25A10C1D00839908 /* Fontes.swift in Sources */,
 				C1BB4BF8258571FC008DA87A /* View02.swift in Sources */,
 				C1B3441725A10C1500839908 /* Colors.swift in Sources */,
 				C1B3441125A10BD200839908 /* ToqueHapticos.swift in Sources */,
