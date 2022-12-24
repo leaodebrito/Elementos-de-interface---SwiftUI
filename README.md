@@ -13,4 +13,12 @@ No grupo de visualização são apresentados **Cores, Imagens, Shapes e Textos e
 
 
 Elementos de interface a serem implementados:
-1. 
+1. Charts
+2. Value Indicators
+3. Stacks
+4. Grids
+5. Toque hapticos
+6. Campos de escrita
+7. Controladores
+
+Referência [SwiftUI View](https://developer.apple.com/documentation/widgetkit/swiftui-views)
