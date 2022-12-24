@@ -4,7 +4,7 @@ Projeto estudo para criação de repertório de ferramentas e elementos gráfico
 
 | :placard: Vitrine.Dev |     |
 | -------------  | --- |
-| :sparkles: Nome        | **Titulo do meu projeto**
+| :sparkles: Nome        | **Elementos de interface - SwiftUI**
 | :label: Tecnologias | SwiftUI e Swift
 | :rocket: URL         | -
 | :fire: Desafio     | -
@@ -13,6 +13,7 @@ Projeto estudo para criação de repertório de ferramentas e elementos gráfico
 ![](https://github.com/leaodebrito/Elementos-de-interface---SwiftUI/blob/master/Imagens/Interfaces.jpg?raw=true#vitrinedev)
 
 
+______
 
 ## Detalhes do projeto
 
