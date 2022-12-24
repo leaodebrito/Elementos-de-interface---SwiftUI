@@ -23,9 +23,6 @@ O projeto conta com dois grupos de elementos gráficos:
 
 No grupo de visualização são apresentados **Cores, Imagens, Shapes e Textos e Fontes**. Já no grupo de interação são apresentados soluções de **Botões, Controladores, Toque Hapticos e Campos de Escrita"**
 
-![Interação e Visualização](https://github.com/leaodebrito/Elementos-de-interface---SwiftUI/blob/master/Imagens/Interfaces.jpg?raw=true)
-
-
 Elementos de interface a serem implementados:
 1. Charts
 2. Value Indicators
